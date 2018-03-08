@@ -24,58 +24,53 @@
         <div class="row">
           <div class="col-lg-4 mx-auto text-center">
             <img id="about-img" src="<?php echo get_bloginfo( 'template_directory' );?>/assets/img/logo.png" />
+            <br />
+            <table class="text-table text-left">
+              <tbody>
+                <tr>
+                  <td>Company Name:</td>
+                  <td>Don Chicho&#39;s Nurture Farm</td>
+                </tr>
+                <tr>
+                  <td>SEC Registration No.:</td>
+                  <td>123 456 789</td>
+                </tr>
+                <tr>
+                  <td>Company TIN No.:</td>
+                  <td>987 654 321</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
           <div class="col-lg-6 mx-auto text-center">
-            <h2 class="section-heading text-white">About the Farm</h2>
-            <hr class="light my-4">
-            <p class="text-faded mb-4">
-              Don Chicho’s Nurture Farm is a subfarm of DV Boer located in Bulacan. The rich and luscious land of the farm will serve as a pasture site for the Boer goats. Together with DV Boer, the farm aims to efficiently and effectively raise and produce goat livestock and products, not only ensuring the highest profit possible, but also providing employment to the local farmers in the community.
+            <h2 class="section-heading">About the Farm</h2>
+            <hr class="my-4">
+            <p class="text-justified mb-4">
+              Don Chicho’s Nurture Farm, an accredited subfarm of DV Boer Inc., is located 
+              in Sta. Maria, Bulacan. The rich and luscious land of the farm will serve as a
+              pasture site for the Boer goats. The farm aims to efficiently and 
+              effectively raise and produce goat livestock and products, not 
+              only ensuring the highest profit possible, but also providing 
+              employment to the local farmers in the community.
               <br /><br />
               Much like DV Boer, the farm also offers the Pa-iwi Package, giving everyone a chance to contribute to the farm’s development and goals, all while producing profit for both the investor and the farm.
-              <br /><br />
-              Company Name:
-              <br />
-              SEC Registration No.:
-              <br />
-              Company TIN No.:
             </p>
           </div>
         </div>
-        <br />
         <div class="row">
           <div class="col-lg-4 mx-auto text-left">
-            <h2 class="section-heading text-white text-center">Our Mission</h2>
-            <hr class="light my-4">
-            <p class="text-faded mb-4">
-              <ul class="text-faded">
-                <li>To provide high-quality livestock and derivative products to our customers.</li>
-                <li>To contribute to the local rural community and provide jobs for the local farmers through means of profitable livestock-farming techniques.</li>
-                <li>To spread the culture of agriculture and livestock-farming in the Philippines.</li>
-              </ul>
+            <h2 class="section-heading text-center">Our Mission</h2>
+            <hr class="my-4">
+            <p class="text-justified mb-4">
+                We exist to contribute the country’s food security and agricultural development through sustainable and profitable farming practices as well as mutually beneficial partnerships.
             </p>
           </div>
 
           <div class="col-lg-4 mx-auto text-center">
-            <h2 class="section-heading text-white">Our Vision</h2>
-            <hr class="light my-4">
-            <p class="text-faded mb-4">
-              To become a provider of high-quality livestock products, as well as an employer of local farmers in the rural community, through means of profitable and sustainable agricultural techniques.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About the Owners -->
-    <section id="owners" class="owners-img">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-4 mx-auto">
-          </div>
-          <div class="col-lg-6 mx-auto owners-text">
-            <h2 class="section-heading">About the Owners</h2>
-            <p class="mb4">
-              The farm was founded by Elmer and Nelly dela Cruz in early 2018. Both currently work as doctors, but have chosen to pursue building and managing the farm after being introduced to the DV Boer Farm and their goat farming business venture. Shortly after, they decided to branch off and, in collaboration with DV Boer, become a subfarm and use their land in Bulacan as a site for agriculture and livestock-farming.
+            <h2 class="section-heading">Our Vision</h2>
+            <hr class="my-4">
+            <p class="mb-4">
+              To be a leading, modern, innovative and successful agricultural enterprise.
             </p>
           </div>
         </div>
@@ -90,7 +85,7 @@
             <h2 class="section-heading">The Paiwi System</h2>
             <hr class="my-4">
             <p class="text-muted mb-4">
-                In the Pa-iwi or Paalaga System, the owner of livestock would put in trust a cow / goat to a farmer or trusted individual to take care of the livestock. Any offspring would be equally divided in half between the owner and the farmer.
+                In the Pa-iwi or Paalaga System, the owner of livestock would put in trust a cow / goat to a farmer or trusted individual to take care of the livestock. Profits from the offspring would be shared between the owner and the farmer.
             </p>
             <hr class="separator">
             <img id="paiwi-img" src="<?php echo get_bloginfo( 'template_directory' );?>/assets/img/paiwi-cycle.png">
@@ -193,6 +188,7 @@
       </div>
     </section>
 
+    <!-- FAQ -->
     <section class="bg-dark text-white" id="faq">
       <div class="container-fluid">
         <div class="row">
@@ -203,14 +199,6 @@
         </div>
         <div class="row">
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-              </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <p>
@@ -302,6 +290,14 @@
                   </p>
                 </div>
               </div>
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+              </ol>
               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
@@ -325,48 +321,17 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4 mx-auto text-center">
-          <!-- Form here -->
-          <div id="respond">
-            <?php echo $response; ?>
-            <form action="<?php the_permalink(); ?>" method="post">
-            <div class="form-group">
-              <label> Name <br /></label>
-              <span class="your-name">
-                <input type="text" name="your-name" value="<?php echo esc_attr($_POST['message_name']); ?>" size="40" class="form-control" aria-required="true" aria-invalid="false" />
-              </span>
-            </div>
-            <div class="form-group">
-              <label> Email <br /></label>
-              <span class="your-email">
-                <input type="email" name="your-email" value="<?php echo esc_attr($_POST['message_email']); ?>" size="40" class="form-control" aria-required="true" aria-invalid="false" />
-              </span>
-            </div>
-            <div class="form-group">
-              <label> Subject <br /></label>
-              <span class="your-subject">
-                <input type="text" name="your-subject" value="<?php echo esc_attr($_POST['message_subject']); ?>" size="40" class="form-control wpcf7-text" aria-invalid="false" />
-              </span>
-            </div>
-            <div class="form-group">
-              <label> Message <br /></label>
-              <span class="your-message">
-                <textarea name="your-message" cols="40" rows="10" class="form-control" aria-invalid="false"><?php echo esc_textarea($_POST['message_text']); ?></textarea>
-              </span>
-            </div>
-            <input type="hidden" name="submitted" value="1">
-            <input type="submit" value="Submit" class="btn btn-light btn-xl sr-button" />
-            </form>
-          </div>
-          <hr class="separator" />
-          </div>
-          <div class="col-lg-8 mx-auto text-center">
-            <p>
-              <span class="fa fa-map-marker" aria-hidden="true"></span>&nbsp;Brgy. Balasing, Sta. Maria, Bulacan<br />
-              <span class="fa fa-facebook" aria-hidden="true"></span>&nbsp;<a href="https://www.facebook.com/Don-Chichos-Nurture-Farm-1975173889414635/">Don Chicho&#39;s Nurture Farm</a><br />
+          <div class="col-lg-6 mx-auto text-center">
+            <p class="text-left">
+              Contact us!
+              <br /><br />
               <span class="fa fa-envelope-o" aria-hidden="true"></span>&nbsp;<a href="mailto:donchicho@dcnurturefarm.com">donchicho@dcnurturefarm.com</a><br />
+              <span class="fa fa-facebook" aria-hidden="true"></span>&nbsp;<a href="https://www.facebook.com/Don-Chichos-Nurture-Farm-1975173889414635/">Don Chicho&#39;s Nurture Farm</a><br />
+              <span class="fa fa-map-marker" aria-hidden="true"></span>&nbsp;Brgy. Balasing, Sta. Maria, Bulacan<br />
             </p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15426.208652229394!2d120.9995984355148!3d14.850371625333283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397aeb5d76a250f%3A0xf6f0915d49d37812!2sBalasing%2C+Santa+Maria%2C+Bulacan!5e0!3m2!1sen!2sph!4v1517028994068" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+          <div class="col-lg-6 mx-auto text-center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15426.208652229394!2d120.9995984355148!3d14.850371625333283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397aeb5d76a250f%3A0xf6f0915d49d37812!2sBalasing%2C+Santa+Maria%2C+Bulacan!5e0!3m2!1sen!2sph!4v1517028994068" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
         </div>
       </div>

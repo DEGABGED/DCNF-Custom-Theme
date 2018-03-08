@@ -30,14 +30,8 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#owners">Owners</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#paiwi">Paiwi</a>
             </li>
-            <!--li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
-            </li-->
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#faq">FAQ</a>
             </li>
