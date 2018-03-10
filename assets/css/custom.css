@@ -122,7 +122,7 @@ header.banner {
 
 .post-preview {
   border: 1px solid #ccc;
-  padding: 20px;
+  padding: 19px;
 }
 
 .post-preview-box {
@@ -144,6 +144,17 @@ header.banner {
     left:0;
     top:0;
     background:linear-gradient(transparent 2rem, white);
+}
+
+.post-preview-image {
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.post-preview-image .wp-post-image {
+  max-width: 100%;
+  max-height: 400px;
+  object-fit: cover;
 }
 
 /* Color scheme changing */
@@ -194,5 +205,14 @@ hr.color-separator {
 
   .carousel-item, .carousel-item * {
     font-size: 1em;
+  }
+
+  /* Resize blog imgs */
+.post-preview-image {
+  max-height: 200px;
+}
+  .post-preview .wp-post-image {
+    max-width: 100%;
+    max-height: 200px;
   }
 }

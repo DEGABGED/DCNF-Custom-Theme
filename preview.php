@@ -16,5 +16,12 @@
     <!--img class="img-fluid rounded" src="http://placehold.it/900x300" alt="">
 
     <hr-->
+    <div class="post-preview-image">
+<?php if ( has_post_thumbnail() ) {
+the_post_thumbnail();
+    } else { ?>
+<img src="<?php bloginfo('template_directory'); ?>/assets/img/default-image.jpg" alt="<?php the_title(); ?>" />
+<?php } ?>
+    </div>
   </div>
 </div>

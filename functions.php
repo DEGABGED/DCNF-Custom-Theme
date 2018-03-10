@@ -42,3 +42,6 @@ function dcnf_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'dcnf_scripts' );
+
+/* What does this line of code do tho */
+add_theme_support( 'post-thumbnails' );
