@@ -24,6 +24,7 @@
     <hr-->
 
     <!-- Post Content -->
+    <?php the_post_thumbnail(); ?>
     <?php the_content(); ?>
   </div>
 
